@@ -1,0 +1,68 @@
+*{
+  transition: .3s;
+  
+}
+
+.layout-side-section{
+    background-image:linear-gradient(#417ABA,#00ffcf) !important;
+    border-radius: 20px;
+  }
+
+  .layout-side-section .selected{
+    border: black !important;
+    background-color: rgba(0, 255, 234, 0.596) !important;
+    color: white !important;
+  }
+  .sidebar-item-icon{
+    color: white;
+  }
+  .sticky-top{
+    background-image:linear-gradient(#417ABA,#00ffcf) !important;
+    padding: 10px;
+  }
+  .navbar{
+    background-color: transparent !important;
+    border-bottom:none;
+  }
+  .widget-group-title, .widget-head, .widget, .widget-head, .widget-title{
+    color: #417ABA !important;
+  }
+  .widget.links-widget-box{
+    background-color: #14bfdd !important;
+    
+  }
+  .sidebar-item-label{
+color: rgb(255, 255, 255);
+  }
+  .sidebar-item-label:hover{
+    background: rgba(255, 255, 255, 0.562) !important;
+    color: black;
+  }
+  .item-anchor:hover{
+    background-color: rgba(255, 255, 255, 0.562) !important;
+  }
+  .layout-main-section{
+    border: solid #417ABA !important;
+  }
+  .app-logo{
+    scale: 2;
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+  }
+  
+  ::selection {
+    color: red !important;
+    background: yellow;
+  }
+
+.item-anchor{
+  
+  margin: auto;
+  margin-left: 5px;
+}
+.link-text{
+  color: white !important;
+}

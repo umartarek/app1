@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:team_name",
+ "creation": "2024-08-13 16:05:46.303979",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_jsdk",
+  "team_name",
+  "team_lead",
+  "column_break_crnb",
+  "team_members",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_jsdk",
+   "fieldtype": "Section Break",
+   "label": "Project Team"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "New-Team",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "team_name",
+   "fieldtype": "Data",
+   "label": "Team Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "team_lead",
+   "fieldtype": "Data",
+   "label": "Team Lead"
+  },
+  {
+   "fieldname": "column_break_crnb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team_members",
+   "fieldtype": "Data",
+   "label": "Team Members"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-13 16:15:56.826503",
+ "modified_by": "Administrator",
+ "module": "app1",
+ "name": "New-Team",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

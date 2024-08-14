@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-14 13:19:51.752530",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3dwu",
+  "amended_from",
+  "strategy_name",
+  "business_goal_alignment",
+  "project_owner",
+  "column_break_zaox",
+  "start_date",
+  "end_date",
+  "status",
+  "related_projects_link",
+  "section_break_sjhl",
+  "strategy_description",
+  "key_performance_indicators_kpis",
+  "risk_factors"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3dwu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "IT Strategy",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "strategy_name",
+   "fieldtype": "Data",
+   "label": "Strategy Name"
+  },
+  {
+   "fieldname": "strategy_description",
+   "fieldtype": "Text",
+   "label": "Strategy Description"
+  },
+  {
+   "fieldname": "business_goal_alignment",
+   "fieldtype": "Data",
+   "label": "Business Goal Alignment "
+  },
+  {
+   "fieldname": "project_owner",
+   "fieldtype": "Data",
+   "label": "Project Owner"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date "
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Planning,\nIn Progress\nCompleted\nOn Hold"
+  },
+  {
+   "fieldname": "key_performance_indicators_kpis",
+   "fieldtype": "Table",
+   "label": "Key Performance Indicators (KPIs)",
+   "options": "Key Performance Indicators"
+  },
+  {
+   "fieldname": "related_projects_link",
+   "fieldtype": "Link",
+   "label": "Related Projects (Link)",
+   "options": "new-Project"
+  },
+  {
+   "fieldname": "column_break_zaox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_sjhl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risk_factors",
+   "fieldtype": "Table",
+   "label": "Risk Factors",
+   "options": "Risk Factors"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-14 14:15:45.770168",
+ "modified_by": "Administrator",
+ "module": "app1",
+ "name": "IT Strategy",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

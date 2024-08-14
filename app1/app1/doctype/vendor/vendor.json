@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-14 13:26:47.944797",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_wpgj",
+  "amended_from",
+  "vendor_name",
+  "vendor_type",
+  "contact_person",
+  "contract_start_date",
+  "contract_end_date",
+  "contract_value",
+  "service_level_agreement_sla",
+  "section_break_siil",
+  "productsservices_provided",
+  "performance_metrics",
+  "communication_log"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_wpgj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Vendor",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "vendor_name",
+   "fieldtype": "Data",
+   "label": "Vendor Name"
+  },
+  {
+   "fieldname": "vendor_type",
+   "fieldtype": "Select",
+   "label": "Vendor Type",
+   "options": "Hardware\nSoftware\nServices"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date"
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "label": "Contract End Date"
+  },
+  {
+   "fieldname": "contract_value",
+   "fieldtype": "Currency",
+   "label": "Contract Value"
+  },
+  {
+   "fieldname": "service_level_agreement_sla",
+   "fieldtype": "Text",
+   "label": "Service Level Agreement (SLA)"
+  },
+  {
+   "fieldname": "section_break_siil",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "productsservices_provided",
+   "fieldtype": "Table",
+   "label": "Products/Services Provided ",
+   "options": "Products or Services Provided"
+  },
+  {
+   "fieldname": "performance_metrics",
+   "fieldtype": "Table",
+   "label": "Performance Metrics",
+   "options": "Performance Metrics"
+  },
+  {
+   "fieldname": "communication_log",
+   "fieldtype": "Table",
+   "label": "Communication Log",
+   "options": "Communication Log"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-14 14:31:07.176543",
+ "modified_by": "Administrator",
+ "module": "app1",
+ "name": "Vendor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
